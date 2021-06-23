@@ -1,4 +1,4 @@
-package javab;
+package javab.Java_basic;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class NewReader {
 	public static void main(String[] args) {
-	String filename = "C:/Users/amani/OneDrive/Desktop/m.txt";
+	String filename = "C:\Users\amani\OneDrive\Desktop\m.txt";
 		File file = new File(filename);
 		try (BufferedReader read2 = new BufferedReader(new FileReader(file))) {
 			String text;
