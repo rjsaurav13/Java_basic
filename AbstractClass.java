@@ -1,4 +1,4 @@
-package javab;
+package javab.Java_basic;
 abstract class Getschool{
 	public abstract void showname();
 	public abstract void showage();
